@@ -1,0 +1,32 @@
+input 
+{
+    # Interaction strength or other model parameters
+    U = 0. 
+    # System Size
+    N = 4
+
+    # Inverse Temperature
+    beta = 4.
+
+
+    # Imaginary Time evolution parameters
+    dtau = 0.5
+ 
+
+    # Number of Metts 
+    NMetts = 500
+    # Number of Thermalization steps
+    NTherm = 10
+
+    
+    # Truncated Weights and Bond Dimensions
+    Cutoff  = 1E-10
+    Maxm = 100
+
+
+    # Output file name prefix
+    outfile = data
+
+    
+}
+

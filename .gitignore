@@ -1,0 +1,9 @@
+*.o
+*.a
+
+.DS_Store
+.clangd
+.vscode
+.ipynb_checkpoints
+.code-workspace
+build
